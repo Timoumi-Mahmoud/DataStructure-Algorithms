@@ -1,0 +1,28 @@
+## bubbleSort
+
+
+[                   ]
+xi<= xi+1
+
+[1,3,7,4,2]
+
+**1st Iter:
+
+[1,3,4,2,7] ==>single iteration reuslt the largest will be in the end of the table.
+
+so we will ignore the last item of the array.
+O(n)
+**2end Iter: 
+[1,3,2,4,|7|] o(n-1)
+
+**3rd Iter: 
+ [1,3,2,|4,7|]=> [1,2,3,4,7] done
+o(n-2)
+
+
+
+=====> N===>N-1===>N-2====>N-3====>N-N+1
+1<====2<====3<==========N
+
+n(n+1)/2= o(n^2)
+
