@@ -1,0 +1,4 @@
+## Queue:
+- FiFo: first in first out.
+
+
