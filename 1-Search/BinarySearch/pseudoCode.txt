@@ -1,0 +1,15 @@
+[ , , , ,  |,, ,,  ,,  ,,  ]
+0          mid             n
+
+
+function(arr, needle
+mid=lo+(lo-hi)/2
+while(lo!==hi) //lo<hi
+   if (arr[mid]==needle)
+       return true;
+   if(arr[mid]>needle)
+      hi=mid
+   else if(arr[mid]<needle)
+     lo=mid+1
+
+     
